@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<title>View Profile</title>
+</head>
+<body>
+    <center><h2 id="msg" class="mt-5 d-flex justify-content-center"></h2></center>
+
+    <h1>List of Users</h1>
+
+    <!-- <table class="table ">
+        <thead class="thead-light">
+            <tr>
+                <th>Id</th>
+                <th>Names</th>
+                <th>Figures</th>
+                <th>Bio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="id"></td>
+                <td id="name"></td>
+                <td id="fig"></td>
+                <td id="bio"></td>
+            </tr>
+        </tbody>
+    </table> -->
+
+
+    <table class="table table-hover table-light">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Names</th>
+            <th scope="col">Figures</th>
+            <th scope="col">Bio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" id="id"></th>
+            <td id="name"></td>
+            <td id="fig"></td>
+            <td id="bio"></td>
+          </tr>
+        </tbody>
+      </table>
+
+
+<all>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!-- <script src="{% static 'assets/js/main.js' %}"></script> -->
+    <script>
+        $(document).ready(function () {
+            setInterval(() => {
+                $.ajax({
+                    type: 'GET',
+                    url: "{% url 'getprofiles' %}",
+                    success: (res) => {
+                        console.log(res)
+                        $('#id').empty();
+                        $('#name').empty();
+                        $('#fig').empty();
+                        $('#bio').empty();
+                        for(var key in res.profiles){
+                            //var id="<li>"+ res.profiles[key].id +"</li>"
+                            var id= res.profiles[key].id+"<br>" 
+                            var name= res.profiles[key].name +"<br>"
+                            var fig= res.profiles[key].figure +"<br>"
+                            var bio= res.profiles[key].bio +"<br>"
+                            $('#bio').append(bio);
+                            $('#fig').append(fig);
+                            $('#id').append(id);
+                            $('#name').append(name);
+                        }
+                    },error: (res) => {
+                        console.log(res)
+                        $('#msg').html(res);
+                    }
+                });        
+            }, 1000);
+        });
+    </script>
+</all>
+</body>
+</html>

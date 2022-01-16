@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<title>Post</title>
+</head>
+<body>
+    <center><h2 id="msg" class="mt-5 d-flex justify-content-center"></h2></center>
+    <div class="justify-content-center d-flex mt-5">
+        <form id="profileform" action="{% url 'postprofile' %}" method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="">Name</label>
+                <input id="" class="form-control" type="text" name="name">
+            </div>
+            <div class="form-group">
+                <label for="">figure</label>
+                <input id="" class="form-control" type="number" name="figure">
+            </div>
+            <div class="form-group">
+                <label for="">Bio</label>
+                <textarea name="bio" class="form-control" id ="" cols="30" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </div>
+        </form>
+    </div>
+
+<all>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!-- <script src="{% static 'assets/js/main.js' %}"></script> -->
+    <script>
+        $(document).ready(function () {
+            $('#profileform').submit(function (e) { 
+                e.preventDefault();
+                url = $(this).attr('action');
+                data = $(this).serialize();
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: data,
+                    dataType: "dataType",
+                    success: function (res) {
+                        console.log(res)
+                        alert('Success')
+                    }
+                });
+            });
+        });
+    </script>
+</all>
+</body>
+</html>
