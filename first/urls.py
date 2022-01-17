@@ -10,4 +10,5 @@ urlpatterns = [
     path('postprofileform/', v.postprofileform, name='postprofileform'),
     path('postprofile/', v.postprofile, name='postprofile'),
     
+    
 ]

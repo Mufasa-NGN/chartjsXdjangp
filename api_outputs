@@ -1,0 +1,133 @@
+{
+  "source": {
+    "id": "abc-news",
+    "name": "ABC News"
+  },
+  "author": "TOM BOWKER and TOM KRISHER Associated Press",
+  "title": "Tesla inks deal to get key battery component outside China",
+  "description": "",
+  "url": "https://abcnews.go.com/International/wireStory/tesla-inks-deal-key-battery-component-china-82293464",
+  "urlToImage": "https://s.abcnews.com/images/International/WireAP_229c03386afe4469908c29bec4d2ba8b_16x9_992.jpg",
+  "publishedAt": "2022-01-16T08:33:10Z",
+  "content": "LONDON -- Tesla is turning to Mozambique for a key component in its electric car batteries in what analysts believe is a first-of-its-kind deal designed to reduce its dependence on China for graphite\u2026 [+4571 chars]"
+}
+{
+  "source": {
+    "id": "next-big-future",
+    "name": "Next Big Future"
+  },
+  "author": "Brian Wang",
+  "title": "Tesla China Delivered 70600 EVs in December | NextBigFuture.com",
+  "description": "Tesla China delivered 70,847 Vehicles in Dec 2021. The total 2021 Tesla China production was 484,130 and about 160,000 were exported. 320,000 were delivered",
+  "url": "https://www.nextbigfuture.com/2022/01/tesla-china-delivered-70600-evs-in-december.html",
+  "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2021/10/TeslaBYD.jpg",
+  "publishedAt": "2022-01-11T20:53:16Z",
+  "content": "Tesla China delivered 70,847 Vehicles in Dec 2021. The total 2021 Tesla China production was 484,130 and about 160,000 were exported. 320,000 were delivered to domestic China buyers. Tesla sold 120,0\u2026 [+2608 chars]"
+}
+{
+  "source": {
+    "id": "next-big-future",
+    "name": "Next Big Future"
+  },
+  "author": "Brian Wang",
+  "title": "CATL Set Up New 70 GWh/Year Battery Factory in 3 Months | NextBigFuture.com",
+  "description": "CATL set up a new battery factory in 3 months. It is right beside Tesla Giga Shanghai. The new iron LFP battery factory is already at 60% of planned capacity.",
+  "url": "https://www.nextbigfuture.com/2022/01/factoryin3months.html",
+  "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2022/01/Screen-Shot-2022-01-09-at-1.04.34-PM.jpg",
+  "publishedAt": "2022-01-09T21:13:13Z",
+  "content": "CATL set up a new battery factory in 3 months. It is right beside Tesla Giga Shanghai. The new iron LFP battery factory is already at 60% of planned capacity. The buildings existed and met CATL specs\u2026 [+1579 chars]"
+}
+
+
+
+
+
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+      {
+        "source": {
+          "id": "abc-news",
+          "name": "ABC News"
+        },
+        "author": "TOM BOWKER and TOM KRISHER Associated Press",
+        "title": "Tesla inks deal to get key battery component outside China",
+        "description": "feerferfr",
+        "url": "https://abcnews.go.com/International/wireStory/tesla-inks-deal-key-battery-component-china-82293464",
+        "urlToImage": "https://s.abcnews.com/images/International/WireAP_229c03386afe4469908c29bec4d2ba8b_16x9_992.jpg",
+        "publishedAt": "2022-01-16T08:33:10Z",
+        "content": "LONDON -- Tesla is turning to Mozambique for a key component in its electric car batteries in what analysts believe is a first-of-its-kind deal designed to reduce its dependence on China for graphite\u2026 [+4571 chars]"
+      },
+      {
+        "source": {
+          "id": "next-big-future",
+          "name": "Next Big Future"
+        },
+        "author": "Brian Wang",
+        "title": "Tesla China Delivered 70600 EVs in December | NextBigFuture.com",
+        "description": "Tesla China delivered 70,847 Vehicles in Dec 2021. The total 2021 Tesla China production was 484,130 and about 160,000 were exported. 320,000 were delivered",
+        "url": "https://www.nextbigfuture.com/2022/01/tesla-china-delivered-70600-evs-in-december.html",
+        "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2021/10/TeslaBYD.jpg",
+        "publishedAt": "2022-01-11T20:53:16Z",
+        "content": "Tesla China delivered 70,847 Vehicles in Dec 2021. The total 2021 Tesla China production was 484,130 and about 160,000 were exported. 320,000 were delivered to domestic China buyers. Tesla sold 120,0\u2026 [+2608 chars]"
+      },
+      {
+        "source": {
+          "id": "next-big-future",
+          "name": "Next Big Future"
+        },
+        "author": "Brian Wang",
+        "title": "CATL Set Up New 70 GWh/Year Battery Factory in 3 Months | NextBigFuture.com",
+        "description": "CATL set up a new battery factory in 3 months. It is right beside Tesla Giga Shanghai. The new iron LFP battery factory is already at 60% of planned capacity.",
+        "url": "https://www.nextbigfuture.com/2022/01/factoryin3months.html",
+        "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2022/01/Screen-Shot-2022-01-09-at-1.04.34-PM.jpg",
+        "publishedAt": "2022-01-09T21:13:13Z",
+        "content": "CATL set up a new battery factory in 3 months. It is right beside Tesla Giga Shanghai. The new iron LFP battery factory is already at 60% of planned capacity. The buildings existed and met CATL specs\u2026 [+1579 chars]"
+      }
+    ]
+  }
+
+
+  [
+    {
+      "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+      },
+      "author": "TOM BOWKER and TOM KRISHER Associated Press",
+      "title": "Tesla inks deal to get key battery component outside China",
+      "description": "",
+      "url": "https://abcnews.go.com/International/wireStory/tesla-inks-deal-key-battery-component-china-82293464",
+      "urlToImage": "https://s.abcnews.com/images/International/WireAP_229c03386afe4469908c29bec4d2ba8b_16x9_992.jpg",
+      "publishedAt": "2022-01-16T08:33:10Z",
+      "content": "LONDON -- Tesla is turning to Mozambique for a key component in its electric car batteries in what analysts believe is a first-of-its-kind deal designed to reduce its dependence on China for graphite\u2026 [+4571 chars]"
+    },
+    {
+      "source": {
+        "id": "next-big-future",
+        "name": "Next Big Future"
+      },
+      "author": "Brian Wang",
+      "title": "Tesla China Delivered 70600 EVs in December | NextBigFuture.com",
+      "description": "Tesla China delivered 70,847 Vehicles in Dec 2021. The total 2021 Tesla China production was 484,130 and about 160,000 were exported. 320,000 were delivered",
+      "url": "https://www.nextbigfuture.com/2022/01/tesla-china-delivered-70600-evs-in-december.html",
+      "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2021/10/TeslaBYD.jpg",
+      "publishedAt": "2022-01-11T20:53:16Z",
+      "content": "Tesla China delivered 70,847 Vehicles in Dec 2021. The total 2021 Tesla China production was 484,130 and about 160,000 were exported. 320,000 were delivered to domestic China buyers. Tesla sold 120,0\u2026 [+2608 chars]"
+    },
+    {
+      "source": {
+        "id": "next-big-future",
+        "name": "Next Big Future"
+      },
+      "author": "Brian Wang",
+      "title": "CATL Set Up New 70 GWh/Year Battery Factory in 3 Months | NextBigFuture.com",
+      "description": "CATL set up a new battery factory in 3 months. It is right beside Tesla Giga Shanghai. The new iron LFP battery factory is already at 60% of planned capacity.",
+      "url": "https://www.nextbigfuture.com/2022/01/factoryin3months.html",
+      "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2022/01/Screen-Shot-2022-01-09-at-1.04.34-PM.jpg",
+      "publishedAt": "2022-01-09T21:13:13Z",
+      "content": "CATL set up a new battery factory in 3 months. It is right beside Tesla Giga Shanghai. The new iron LFP battery factory is already at 60% of planned capacity. The buildings existed and met CATL specs\u2026 [+1579 chars]"
+    }
+  ]
+
